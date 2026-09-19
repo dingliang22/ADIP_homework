@@ -1,0 +1,1 @@
+add_executable(HW1_Q1 test.cpp)
