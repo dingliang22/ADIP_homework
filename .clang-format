@@ -1,0 +1,28 @@
+BasedOnStyle: LLVM
+Language: Cpp
+
+# 縮排與 Tab 設定
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# 單行長度限制
+ColumnLimit: 100
+
+# 括號與結構風格
+BreakBeforeBraces: Attach
+AllowShortFunctionsOnASingleLine: Inline
+
+# 對齊設定
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+
+# 指標與參考對齊 (例如: int* p; 取代 int *p;)
+PointerAlignment: Left
+
+# 類別存取修飾子縮排 (public/private)
+AccessModifierOffset: -4
+
+# 標準版本
+Standard: Latest

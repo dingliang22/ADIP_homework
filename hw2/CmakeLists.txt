@@ -1,0 +1,5 @@
+add_executable(hw2_1_1 hw2_1_1.cpp)
+add_executable(hw2_1_2 hw2_1_2.cpp)
+add_executable(hw2_1_3 hw2_1_3.cpp)
+
+add_executable(test test.cpp)
