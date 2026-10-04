@@ -18,7 +18,8 @@ pacman -S \
   mingw-w64-clang-x86_64-toolchain \
   mingw-w64-clang-x86_64-cmake \
   mingw-w64-clang-x86_64-ninja \
-  mingw-w64-clang-x86_64-opencv
+  mingw-w64-clang-x86_64-opencv \
+  mingw-w64-clang-x86_64-stb
 ```
 4. 設定cmake選擇編譯器
 ```bash

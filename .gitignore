@@ -1,4 +1,4 @@
 build/
-.vscode/
 *.docx
 *.zip
+*.tmp

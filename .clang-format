@@ -1,0 +1,52 @@
+BasedOnStyle: LLVM
+Language: Cpp
+
+# 縮排與 Tab 設定
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# 單行長度限制
+ColumnLimit: 100
+
+# 括號與結構風格
+BreakBeforeBraces: Attach
+AllowShortFunctionsOnASingleLine: Inline
+
+# 對齊設定
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+
+# 指標與參考對齊
+PointerAlignment: Left
+
+# 類別存取修飾子縮排
+AccessModifierOffset: -4
+
+# 標準版本
+Standard: Latest
+
+# 空行控制設定
+
+MaxEmptyLinesToKeep: 1
+SeparateDefinitionBlocks: Always
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+
+# 補全的進階/細節設定
+# switch-case 的 case 標籤也要縮排 4 格
+IndentCaseLabels: true
+
+# 強制自動排序 #include，並依照系統庫/本地庫分類隔開
+SortIncludes: CaseSensitive
+IncludeBlocks: Regroup
+
+# Namespace 內的程式碼全縮排 (若不想縮排可改為 None)
+NamespaceIndentation: All
+
+# 強制統一 const 的位置 (放左邊，即 const int* 而非 int const*)
+QualifierAlignment: Left
+
+# 強制為單行 if/for/while 加上大括號 {}，提升程式碼安全性 (Clang-Format 15+)
+InsertBraces: true

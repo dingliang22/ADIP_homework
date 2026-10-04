@@ -1,0 +1,7 @@
+add_executable(hw2_1_1 hw2_1_1.cpp)
+add_executable(hw2_1_2 hw2_1_2.cpp)
+add_executable(hw2_1_3 hw2_1_3.cpp)
+add_executable(hw2_1_4 hw2_1_4.cpp)
+add_executable(hw2_2 hw2_2.cpp)
+add_executable(hw2_3_a hw2_3_a.cpp)
+add_executable(hw2_3_b hw2_3_b.cpp)
