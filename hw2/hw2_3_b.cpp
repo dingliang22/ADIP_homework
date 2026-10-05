@@ -1,6 +1,7 @@
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include <algorithm>
 #include <array>
+#include <filesystem>
 #include <fstream>
 #include <iostream>
 #include <queue>
