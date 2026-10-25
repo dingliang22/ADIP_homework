@@ -37,4 +37,8 @@ homework/
 │   ├── CMakeLists.txt    # 作業 1 CMake 設定
 │   └── hw1_1_a.cpp       # 作業 1 第一題第a小題
 ├── hw2/                  # 作業 2 目錄
+│   ├── src               # 各小題程式碼
+│   ├── include           # 各小題標頭檔
+│   ├── hw2_img           # 作業圖檔
+│   └── main.cpp          # 該次作業主程式
 └── build/                # 編譯產出目錄

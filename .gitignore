@@ -2,3 +2,4 @@ build/
 *.docx
 *.zip
 *.tmp
+*_result/
