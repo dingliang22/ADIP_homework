@@ -2,7 +2,7 @@
 
 ## 環境
 * **作業系統**：Windows 10 / 11 (使用 MSYS2 CLANG64 環境)
-* **CMake**：`>= 3.15`
+* **CMake**：`>= 3.18`
 * **編譯器**：Clang
 * **建構工具**：Ninja
 * **第三方庫**：OpenCV 5.x (經 MSYS2 pacman 安裝版本為 5.0.0)
@@ -30,15 +30,17 @@ cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug
 cmake --build build --config Debug
 ```
 ## 架構
+
 ```text
-homework/
-├── CMakeLists.txt        # 根目錄 CMake
-├── hw1/                  # 作業 1 目錄
-│   ├── CMakeLists.txt    # 作業 1 CMake 設定
-│   └── hw1_1_a.cpp       # 作業 1 第一題第a小題
-├── hw2/                  # 作業 2 目錄
-│   ├── src               # 各小題程式碼
-│   ├── include           # 各小題標頭檔
-│   ├── hw2_img           # 作業圖檔
-│   └── main.cpp          # 該次作業主程式
-└── build/                # 編譯產出目錄
+ADIP_homework/
+├── CMakeLists.txt        # 根目錄建置設定
+├── hw1/                  # 各小題獨立執行檔
+├── hw2/                  # 各小題獨立執行檔、hw2_img 輸入資料
+├── hw3/                  # main.cpp + include/hw3 + src/common + src/hw3
+├── hw4/                  # main.cpp + include/hw4 + src/common + src/hw4
+│   ├── hw4_img/          # 六張輸入 RAW
+│   ├── hw4_img_result/   # 圖片與 CSV 輸出（不納入版本控制）
+│   └── README.md         # 題目、參數、選單與路徑說明
+└── build/                # 編譯產出
+```
+
