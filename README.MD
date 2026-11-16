@@ -44,6 +44,9 @@ ADIP_homework/
 ├── hw5/                  # main.cpp + include/hw5 + src/common + src/hw5
 │   ├── hw5_img/          # 六張輸入 RAW (zurich / lena 系列)
 │   └── hw5_img_result/   # 圖片與 CSV 輸出（不納入版本控制）
+├── hw6/                  # main.cpp + include/hw6 + src/common + src/hw6
+│   ├── hw6_img/          # 四張輸入 RAW (text / cell / fingerprint / wake)
+│   └── hw6_img_result/   # 圖片與 CSV 輸出（不納入版本控制）
 └── build/                # 編譯產出
 ```
 
