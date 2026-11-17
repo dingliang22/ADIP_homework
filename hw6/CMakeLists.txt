@@ -1,3 +1,8 @@
+if(CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
+    cmake_minimum_required(VERSION 3.18)
+    project(hw6 LANGUAGES CXX)
+endif()
+
 find_path(HW6_STB_INCLUDE_DIR NAMES stb_image_write.h PATH_SUFFIXES stb REQUIRED)
 
 # Shared utilities: RAW/PNG I/O, own morphology (erosion/dilation/opening/closing/top-hat/

@@ -1,3 +1,9 @@
+if(CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
+    cmake_minimum_required(VERSION 3.18)
+    project(hw5 LANGUAGES CXX)
+endif()
+
+find_package(OpenCV 5.0 REQUIRED COMPONENTS core)
 find_path(HW5_STB_INCLUDE_DIR NAMES stb_image_write.h PATH_SUFFIXES stb REQUIRED)
 
 # Shared utilities: RAW/PNG I/O, metrics, resize, Fourier/DCT helpers, hashing, JPEG.
